@@ -1,0 +1,97 @@
+#programs{
+    height:100%;
+    width:100%;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+}
+
+#program-heading{
+    width:100%;
+    text-align: center;
+    font-size:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: #F2F3F8;
+    display: block;
+    float: left;
+}
+#programs-subheader1{
+    font-size:20px;
+    width:100%;
+    color:grey;
+    background-color: #F2F3F8;
+    display: block;
+    float:left;
+}
+#programs-subheading2{
+    width:100%;
+    font-size:20px;
+    color:grey;
+    background-color: #F2F3F8;
+    display: block;
+    float: left;
+}
+.blocks{
+    padding-top:50px;
+    height:500px;
+    width:100%;
+    position:relative;
+    display:block;
+    background-color:#F2F3F8 ;
+    border:none;
+    float:left;
+}
+.inner-block{
+    margin-left:70px;
+    height:430px;
+    position:relative;
+    float:left;
+    width:350px;
+    background-color: white;
+    border:none;
+    box-shadow: 3px 3px 10px 2px #888;
+}
+
+.inner-img{
+    width:100%;
+}
+
+.prog-timing{
+    padding-left: 40px;
+    text-align:left;
+    color:grey;
+    font-size: 15px;
+    margin-top:20px;
+}
+.prog-title{
+    padding-left: 40px;
+    text-align:left;
+    margin-top:10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+.join{
+    padding-left: 40px;
+    text-align:left;
+    margin-top:20px;
+    font-size:20px;
+    color:grey;
+    font-family:"Ubuntu", Helvetica, Arial, sans-serif;
+}
+.join:hover{
+    color:red;
+    transition:0.5s;
+    cursor: pointer;
+}
+
+#blank{
+    position: relative;
+    display: block;
+    float: left;
+    bottom: 0;
+    width:100%;
+    height:50px;
+    background-color: #F2F3F8;
+}

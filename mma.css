@@ -1,0 +1,63 @@
+#program_mma{
+    padding-top: 50px;
+    height:100%;
+    width:100%;
+    background-color:#F2F3F8 ;
+    position: fixed;
+}
+#program_mma_left{
+    height:100%;
+    width:50%;
+    border:none;
+    float:left;
+    position: relative;
+    padding-left: 80px;
+    padding-top:50px;
+}
+
+#program_mma_right{
+    height:100%;
+    width:50%;
+    border:none;
+    position: relative;
+    float: left;
+}
+
+#program_mma_right_frame{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    height:522px;
+    width:532px;
+    background-image: url('Screenshot_2020-01-20\ Single\ Program.png');
+}
+
+#program_mma_left_heading{
+    text-align: left;
+    font-size: 30px;
+    font-family: ops;
+}
+
+.program_mma_content_head{
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: helvetica;
+}
+
+.program_mma_content_para{
+    margin-top: 10px;
+    text-align: left;
+    font-size:12px;
+    color:#888;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.program_mma_content{
+    width:590px;
+    height:100px;
+    margin-top: 10px;
+}

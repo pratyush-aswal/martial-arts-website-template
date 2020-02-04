@@ -1,0 +1,39 @@
+#home{
+    background-image:url('coverpic.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+}
+
+#main_heading{
+    color:white;
+    font-family:ops;
+    font-size: 90px;
+    margin-top:170px;
+    position: relative;
+    text-align: center;
+}
+#main_subheading{
+    color:white;
+    font-size:40px;
+    font-family: Quantico;
+    text-align: center;
+}
+#read-more{
+    display: block;
+    text-align: center;
+    border:none;
+    height:50px;
+    width:170px;
+    background-color: #FFD510;
+    margin-top:40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#read-more:hover{
+    background-color: red;
+    color:white;
+    transition:0.5s;
+    cursor: pointer;
+}

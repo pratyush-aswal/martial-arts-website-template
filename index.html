@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iron Fist</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" type="text/css" href="programs.css">
+    <link rel="stylesheet" type="text/css" href="events.css">
+    <link rel="stylesheet" type="text/css" href="blog.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <link rel="stylesheet" type="text/css" href="mma.css">
+    <link rel="stylesheet" type="text/css" href="t_responsive.css">
+    <link rel='shortcut icon' href='favicon1.jpg' type='image/jpg' />
+
+
+    <link rel="stylesheet" type="text/css" href="../../css/fonts/fonts.css">
+    <link href="https://fonts.googleapis.com/css?family=Rouge+Script|Cookie|Alegreya|Quantico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6a3a9d4e1a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <!-- header -->
+    <div id="header">
+        <span id="button" onclick="toggle()"><i class="fas fa-align-justify" id="icon"></i></span>
+    </div>
+
+    <!-- navigation bar -->
+    <div id="nav" class="hide">
+        <ul>
+            <li onclick="showContentDiv(0); toggle()"><span id="navbar-icon"><i class="fa fa-home" aria-hidden="true"></i></span> Home </li>
+            <li onclick="showContentDiv(1); toggle()"><span id="navbar-icon"><i class="fas fa-fire-alt"></i></span> Programs </li>
+            <li onclick="showContentDiv(2); toggle()"><span id="navbar-icon"><i class="far fa-calendar-check"></i></span> Events </li>
+            <li onclick="showContentDiv(3); toggle()"><span id="navbar-icon"><i class="far fa-address-card"></i></span> About Us </li>
+            <li onclick="showContentDiv(4); toggle()"><span id="navbar-icon"><i class="fab fa-blogger-b"></i></span> Blog </li>
+        </ul>
+    </div>
+    
+    <!-- content div  -->
+    <div id="content">
+        <!-- home page -->
+        <div id="home" class="content-box" align="center">
+            <h1 id="main_heading">Ultimate Fighting</h1>
+            <h2 id="main_subheading">At Martial Arts School</h2>
+            <button id="read-more" class='button'> Read More </button>
+        </div>
+
+        <!-- programs page -->
+        <div id="programs" class="content-box">
+
+            <div id="programs-header">
+                <h1 id="program-heading"> Martial Arts Groups </h1>
+            </div>
+            <div id="programs-subheader1">
+                A wide variety of hard and soft styles are taught at Martial Arts School. It's a great opportunity to deepen
+            </div>
+            <div id="programs-subheading2">into your own practice and cross-train in styles that are new to you.</div>
+            <div class="blocks">
+                <div class="inner-block">
+                    <img src="aikido.jpg" class="inner-img">
+                    <div class="prog-timing">Thursdays, 7:30 PM</div>
+                    <div class="prog-title"> Aikido </div>
+                    <div class="join" onclick="onclick=showContentDiv(5)"> Join Up <i class="fas fa-arrow-right"></i> </div>
+                </div>
+                <div class="inner-block">
+                    <img src="boxing.jpg" class="inner-img">
+                    <div class="prog-timing">Thursdays, 7:30 PM</div>
+                    <div class="prog-title"> Boxing </div>
+                    <div class="join" onclick="onclick=showContentDiv(5)"> Join Up <i class="fas fa-arrow-right"></i> </div>
+                </div>
+                <div class="inner-block">
+                    <img src="mma.jpg" class="inner-img">
+                    <div class="prog-timing">Thursdays, 7:30 PM</div>
+                    <div class="prog-title"> MMA </div>
+                    <div class="join" onclick="onclick=showContentDiv(5)"> Join Up <i class="fas fa-arrow-right"></i> </div>
+                </div>
+            </div>
+            <div class="blocks">
+                <div class="inner-block">
+                    <img src="karate.jpg" class="inner-img">
+                    <div class="prog-timing">Thursdays, 7:30 PM</div>
+                    <div class="prog-title"> Karate </div>
+                    <div class="join" onclick="onclick=showContentDiv(5)"> Join Up <i class="fas fa-arrow-right"></i> </div>
+                </div>
+                <div class="inner-block">
+                    <img src="women.jpg" class="inner-img">
+                    <div class="prog-timing">Thursdays, 7:30 PM</div>
+                    <div class="prog-title"> Women's Group </div>
+                    <div class="join" onclick="onclick=showContentDiv(5)"> Join Up <i class="fas fa-arrow-right"></i> </div>
+                </div>
+                <div class="inner-block">
+                    <img src="child.jpg" class="inner-img">
+                    <div class="prog-timing">Thursdays, 7:30 PM</div>
+                    <div class="prog-title"> Children's Group </div>
+                    <div class="join" onclick="onclick=showContentDiv(5)"> Join Up <i class="fas fa-arrow-right"></i> </div>
+                </div>
+            </div>
+            <div id="blank"></div>
+        </div>
+
+        <div id="program_mma" class="content-box">
+            <div id="program_mma_left">
+                <div id="program_mma_left_heading"> MMA Group</div>
+                <div class="program_mma_content">
+                    <div class="program_mma_content_head"> Training Process </div>
+                    <div class="program_mma_content_para">MMA has its own unique set of protocols, rules and battle tactics. In its current form it is one of the more technical and demanding sports in existence, as it requires from its fighters a tremendous amount of skill, heart and determination.</div>
+                </div>
+                
+                <div class="program_mma_content">
+                    <div class="program_mma_content_head"> Sports Camp </div>
+                    <div class="program_mma_content_para">At our Sports Camp for MMA, you will have an opportunity to improve your skills in any martial art and even to mix several fighting styles, learn new techniques, and master the ones you already know. The camp opens every summer season.</div>
+                </div>
+                <div class="program_mma_content">
+                    <div class="program_mma_content_head"> Championships </div>
+                    <div class="program_mma_content_para">MMA competitions follow a unique tournament format by which competitors are selected by draw to determine who they will face in each round of competition. They have nine weight classes for men and now five for women.</div>
+                </div>
+            </div>
+            <div id="program_mma_right">
+                <div id="program_mma_right_frame"></div>
+            </div>
+        </div>
+
+        <!-- events page -->
+        <div id="events" class="content-box">
+                <div id="event-header"> Upcoming Events </div>
+                <div class="event-block">
+                    <div class='event-inner-block' id="e1event">
+                        <div class ='event-inner-block-footer'>
+                            <div class='event-inner-block-text-left'>
+                                <div class = 'event-inner-block-text-left-date'> 11 </div>
+                                <div class = 'event-inner-block-text-left-month'> Nov </div>
+                            </div>
+                        <div class='event-inner-block-text-right'>
+                            <div class ='event-inner-block-text-right-name'> Women's Open Training </div>
+                            <div class ='event-inner-block-text-right-venue'><i class="fas fa-map-marker-alt"></i> Local Gym Class 233 Main St. New York, United States</div>
+                            <div class ='event-inner-block-text-right-time'><i class="fas fa-calendar-alt"></i> Friday, 8:00-10:00 am</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class='event-inner-block'id="e2event">
+                        <div class ='event-inner-block-footer'>
+                            <div class='event-inner-block-text-left'>
+                                <div class = 'event-inner-block-text-left-date'> 18 </div>
+                                <div class = 'event-inner-block-text-left-month'> Nov </div>
+                            </div>
+                        <div class='event-inner-block-text-right'>
+                            <div class ='event-inner-block-text-right-name'> Boxing Tricks </div>
+                            <div class ='event-inner-block-text-right-venue'><i class="fas fa-map-marker-alt"></i> Local Gym Class 233 Main St. New York, United States</div>
+                            <div class ='event-inner-block-text-right-time'><i class="fas fa-calendar-alt"></i> Wednesday, 8:00-10:00 am</div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-block">
+                    <div class='event-inner-block'id="e3event">
+                        <div class ='event-inner-block-footer'>
+                            <div class='event-inner-block-text-left'>
+                                <div class = 'event-inner-block-text-left-date'> 24 </div>
+                                <div class = 'event-inner-block-text-left-month'> Oct </div>
+                            </div>
+                        <div class='event-inner-block-text-right'>
+                            <div class ='event-inner-block-text-right-name'> Asian Martial Arts </div>
+                            <div class ='event-inner-block-text-right-venue'><i class="fas fa-map-marker-alt"></i> Local Gym Class 233 Main St. New York, United States</div>
+                            <div class ='event-inner-block-text-right-time'><i class="fas fa-calendar-alt"></i> Monday, 8:00-10:00 am</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class='event-inner-block'id="e4event">
+                        <div class ='event-inner-block-footer'>
+                            <div class='event-inner-block-text-left'>
+                                <div class = 'event-inner-block-text-left-date'> 15 </div>
+                                <div class = 'event-inner-block-text-left-month'> Oct </div>
+                            </div>
+                        <div class='event-inner-block-text-right'>
+                            <div class ='event-inner-block-text-right-name'> MMA Championship </div>
+                            <div class ='event-inner-block-text-right-venue'><i class="fas fa-map-marker-alt"></i> Local Gym Class 233 Main St. New York, United States</div>
+                            <div class ='event-inner-block-text-right-time'><i class="fas fa-calendar-alt"></i> Thursday, 8:00-10:00 am</div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-block">
+                    <div class='event-inner-block'id="e5event">
+                        <div class ='event-inner-block-footer'>
+                            <div class='event-inner-block-text-left'>
+                                <div class = 'event-inner-block-text-left-date'> 01 </div>
+                                <div class = 'event-inner-block-text-left-month'> Oct </div>
+                            </div>
+                        <div class='event-inner-block-text-right'>
+                            <div class ='event-inner-block-text-right-name'> Martial Arts For Children </div>
+                            <div class ='event-inner-block-text-right-venue'><i class="fas fa-map-marker-alt"></i> Local Gym Class 233 Main St. New York, United States</div>
+                            <div class ='event-inner-block-text-right-time'><i class="fas fa-calendar-alt"></i> Tuesday, 8:00-10:00 am</div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class='event-inner-block'id="e6event">
+                        <div class ='event-inner-block-footer'>
+                            <div class='event-inner-block-text-left'>
+                                <div class = 'event-inner-block-text-left-date'> 29 </div>
+                                <div class = 'event-inner-block-text-left-month'> Sept </div>
+                            </div>
+                        <div class='event-inner-block-text-right'>
+                            <div class ='event-inner-block-text-right-name'> Choose Boxing Gloves </div>
+                            <div class ='event-inner-block-text-right-venue'><i class="fas fa-map-marker-alt"></i> Local Gym Class 233 Main St. New York, United States</div>
+                            <div class ='event-inner-block-text-right-time'><i class="fas fa-calendar-alt"></i> Wednesday, 8:00-10:00 am</div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="view-buttondiv">
+                    <button id="view-button"> View More </button>
+                </div>
+                <div id="book-block">
+                        <div id="book-heading"> Book a Ticket </div>
+                        <div class="book-subheading">
+                            Want to take part in any of our school’s events? Feel free to book your ticket in 
+                        </div>
+                        <div class="book-subheading">
+                            advance by pressing a button below.
+                        </div>
+                        <div class="book-buttondiv">
+                            <button id="book-button"> Book Now </button>
+                    </div>
+                </div>
+
+                <div id="blank"></div>
+            </div>
+
+
+        <!-- about us page -->
+        <div id="about" class="content-box">
+            <div id="about-header">About Us </div>
+                <div class="about-subheading"> We are highly trained proffessional martial artists determined to deliver the best martial arts classes in the world. </div>
+                <div class="about-subheading"> Here is our introduction. </div>
+                <div class="blocks">
+                    <div class="inner-block">
+                        <img src="henry.jpg" class="about-img">
+                        <div class="post-title1"> Henry Cavill </div>
+                        <div class="read-post2">Henry William Dalgliesh Cavill (/ˈkævəl/; born 5 May 1983) is an English actor. He began his career with roles in the feature adaptations of The Count of Monte Cristo (2002) and I Capture the Castle (2003). </div>
+                    </div>
+                    <div class="inner-block">
+                        <img src="jason.jpg" class="about-img">
+                        <div class="post-title1"> Jason Statham </div>
+                        <div class="read-post2"> Jason Statham (/ˈsteɪθəm/; born 26 July 1967) is an English actor and film producer. Typecast as the antihero, he is known for his action-thriller roles and portraying tough, irredeemable, and machiavellian characters.</div>
+                    </div>
+                    <div class="inner-block">
+                        <img src="jackie.jpg" class="about-img">
+                        <div class="post-title1"> Jackie Chan </div>
+                        <div class="read-post2"> Chan Kong-sang (Chinese: 陳港生; born 7 April 1954), known professionally as Jackie Chan, is a Hong Konger martial artist, actor, film director, producer, stuntman, and singer.</div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- blogs page -->
+        <div id="blog" class="content-box">
+
+            <div id="blog-header"> Blog </div>
+            <div class="blocks">
+                <div class="inner-block">
+                    <img src="post-1-370x278.jpg" class="inner-img">
+                    <div class="post-timing">Thursdays, 7:30 PM</div>
+                    <div class="post-title"> The Martial Arts Woman </div>
+                    <div class="read-post"> Read More <i class="fas fa-arrow-right"></i> </div>
+                </div>
+                <div class="inner-block">
+                    <img src="post-2-370x278.jpg" class="inner-img">
+                    <div class="post-timing">Thursdays, 7:30 PM</div>
+                    <div class="post-title"> The Martial View </div>
+                    <div class="read-post"> Read More <i class="fas fa-arrow-right"></i> </div>
+                </div>
+                <div class="inner-block">
+                    <img src="post-3-370x278.jpg" class="inner-img">
+                    <div class="post-timing">Thursdays, 7:30 PM</div>
+                    <div class="post-title"> A Beginner’s Journey </div>
+                    <div class="read-post"> Read More <i class="fas fa-arrow-right"></i> </div>
+                </div>
+            </div>
+            <div class="blocks">
+                <div class="inner-block">
+                    <img src="post-4-370x278.jpg" class="inner-img">
+                    <div class="post-timing">Thursdays, 7:30 PM</div>
+                    <div class="post-title"> Learning From Your Mistakes </div>
+                    <div class="read-post"> Read More <i class="fas fa-arrow-right"></i> </div>
+                </div>
+                <div class="inner-block">
+                    <img src="post-5-370x278.jpg" class="inner-img">
+                    <div class="post-timing">Thursdays, 7:30 PM</div>
+                    <div class="post-title"> Karate Shinseidokan Dojo </div>
+                    <div class="read-post"> Read More <i class="fas fa-arrow-right"></i> </div>
+                </div>
+                <div class="inner-block">
+                    <img src="post-6-370x278.jpg" class="inner-img">
+                    <div class="post-timing">Thursdays, 7:30 PM</div>
+                    <div class="post-title"> Top 10 Fights for 2017 </div>
+                    <div class="read-post"> Read More <i class="fas fa-arrow-right"></i> </div>
+                </div>
+            </div>
+            <div id="page-browse">
+                <div id="browser">
+                    <div id="bank"></div>
+                    <div class='page-link'> ... </div>
+                    <div class='page-link'> 1 </div>
+                    <div class='page-link'> 2 </div>
+                    <div class='page-link'> 3 </div>
+                    <div class='page-link'> ... </div>
+                </div>
+            </div>
+            <div id="blank"></div>
+        </div>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>

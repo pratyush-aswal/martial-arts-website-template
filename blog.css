@@ -1,0 +1,85 @@
+#blog{
+    padding-top: 50px;
+    height:100%;
+    width:100%;
+    background-color:#F2F3F8 ;
+    position: fixed;
+    overflow: auto;
+    text-align: center;
+}
+
+#blog-header{
+    background-color:#F2F3F8 ;
+    font-size:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.read-post{
+    padding-left: 20px;
+    text-align:left;
+    margin-top:30px;
+    font-size:20px;
+    color:grey;
+    font-family:"Ubuntu", Helvetica, Arial, sans-serif;
+}
+.read-post:hover{
+    color:red;
+    transition:0.5s;
+    cursor: pointer;
+}
+.post-title{
+    padding-left: 20px;
+    text-align:left;
+    margin-top:10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+.post-timing{
+    padding-left: 20px;
+    text-align:left;
+    color:grey;
+    font-size: 15px;
+    margin-top:20px;
+    font-family: 'Quantico', sans-serif;
+}
+
+.post-title:hover{
+    color:red;
+    cursor:pointer;
+}
+#page-browse{
+    float:left;
+    background-color:#F2F3F8  ;
+    width:100%;
+    height:100px;
+    position: relative;
+    line-height: 100px;
+    padding-top:50px;
+}
+#browser{
+    width:400px;
+    height:100%;
+    position: relative;
+    float:left;
+}
+#bank{
+    width:50px;
+    float: left;
+    height:100%;
+}
+.page-link{
+    margin-left:20px;
+    width:40px;
+    height:40px;
+    border: 1px solid #888;
+    float:left;
+    font-weight:800;
+    line-height: 40px;
+}
+
+.page-link:hover{
+    cursor: pointer;
+    background-color: #FFD510;
+    color:white;
+}
